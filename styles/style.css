@@ -1,0 +1,51 @@
+/*
+	Gmail - Add labels to toolbar icons
+	By crdunst
+	http://userstyles.org/styles/57710
+*/
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+.T-I {
+    line-height: 22px !important;
+    padding-top: 3px !important;
+    height: 23px !important;
+}
+
+.asa {
+    width: 65px !important;
+    text-align: left !important;
+    color: #000 !important;
+}
+
+.ash {
+    width: 75px !important;
+    text-align: left !important;
+    color: #000 !important;
+}
+
+
+.ar6,.ar8,.asl,.ar9,.ase,.asb,.asf,.aos,.hB {
+    text-indent: 22px !important;
+    width: 20px !important;
+}
+
+.aos {
+    margin-right: 48px;
+}
+
+.ar6:before {content:"Back";}
+.ar8:before {content:"Archive";}
+.asl:before {content:"Spam";}
+.ar9:before {content:"Delete";}
+.ase:before {content:"Move to";}
+.asb:before {content:"Labels";}
+.asf:before {content:"Reload";}
+.aos:before {content:"Settings";}
+.hB:before {content:"Reply";}
+
+
+div[title="Back to Inbox"] div .ar6:before,
+div[data-tooltip="Back to Inbox"] div .ar6:before {
+    content:"Inbox";
+}

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns="http://www.w3.org/ns/widgets">
+    <name>GMail-TextButtons</name>
+    <author href="http://my.opera.com/opticyclic/">opticyclic</author>
+    <description xml:lang="en">An Opera Extension to add text to the buttons in Gmail.(Make sure that you have enabled the extension for secure pages to use Gmail with https)</description>
+    <icon src="images/icon_64x64.png"/>
+    <icon src="images/icon_18x18.png"/>
+	<license>See LICENSE.TXT</license>
+</widget>
